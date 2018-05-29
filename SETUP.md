@@ -42,6 +42,7 @@ Reload your profile
 
 
     $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null ; brew install caskroom/cask/brew-cask 2> /dev/null
+    $ brew update
 
 ## Install Git
 
@@ -62,7 +63,6 @@ To push code to your GitHub repositories, its recommended to use HTTPS method (v
    A fresh version of macOS Sierra, you get a PHP 5.6 installed. We want PHP 7.0 as default
 
     $ brew unlink php56
-    $ brew tap homebrew/php
     $ brew install --build-from-source php70
 
 ## Install Composer
@@ -73,7 +73,6 @@ To push code to your GitHub repositories, its recommended to use HTTPS method (v
 
 Install [Node.js](http://nodejs.org/) with Homebrew:
 
-    $ brew update
     $ brew install node
     
 The formula also installs the [npm](https://npmjs.org/) package manager. However, as suggested by the Homebrew output, we need to add `/usr/local/share/npm/bin` to our path so that npm-installed modules with executables will have them picked up.

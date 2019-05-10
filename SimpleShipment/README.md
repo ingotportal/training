@@ -42,7 +42,7 @@ If grunt is not found, please run ``npm install -g grunt-cli`` to install grunt-
 
 ### Finished
 
-When the exercise has been completed, please create a zip, ignoring node_modules directory (as below) and send to ``it@warrant-group.com``
+When the exercise has been completed, please create a zip, ignoring node_modules directory (as below) and send to ``martin.gill@ingotportal.com, lewis.hides@ingotportal.com, andy.roberts@ingotportal.com``
 
 ``
 zip -r9 SimpleShipment.zip SimpleShipment/* -x "*/\node_modules/*"

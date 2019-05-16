@@ -9,7 +9,7 @@ Please review each coding sample and write up a review of the code. Please indic
 ### Sample One
 
 The purpose of this function is to get the next available delivery date for cargo to the warehouse.
-The function accepts three parameters:
+The function accepts two parameters:
 * $loadDate - The date the cargo is loaded onto the lorry.
 * $transitTime - The time it takes to get from the dock to the warehouse. 
 
@@ -45,7 +45,7 @@ private function getNextAvailableDeliveryDate($loadDate, $transitTime)
 
 ### Sample Two
 
-Below, we have two functions. One is to add packages to containers. The other is to update packages which are attached to containers. Both functions need to update the container weights to the total weights of the packages within the container. What do you think to these classes? Could they be improved in any way?
+Below, we have two functions. One is to add packages to containers. The other is to update packages which are attached to containers. Both functions need to update the container weights to the total weights of the packages within the container. 
 
 ```
 
@@ -58,7 +58,7 @@ public function post(Container $container, $params) {
     
     foreach ($container->getPackages() as $containerPackage) {
         $totalGrossWeight = $totalGrossWeight + $containerPackage->getGrossWeight();
-        $totalNetWight = $totalNetWeight + $containerPackage->getNetWeight();
+        $totalNetWeight = $totalNetWeight + $containerPackage->getNetWeight();
         $totalCube = $totalCube + $containerPackage->getCube();
     }
     
@@ -80,7 +80,7 @@ public function patch (Container $container, Package $package, $params) {
     
     foreach ($container->getPackages() as $containerPackage) {
         $totalGrossWeight = $totalGrossWeight + $containerPackage->getGrossWeight();
-        $totalNetWight = $totalNetWeight + $containerPackage->getNetWeight();
+        $totalNetWeight = $totalNetWeight + $containerPackage->getNetWeight();
         $totalCube = $totalCube + $containerPackage->getCube();
     }
     
@@ -98,7 +98,7 @@ public function patch (Container $container, Package $package, $params) {
 
 ### Sample Three
 
-Below, we have three classes. One for vessels, one for planes and one for hauliers. What do you think to these classes? Could they be improved in any way?
+Below, we have three classes. One for vessels, one for planes and one for hauliers.
 
 ```
 class Vessel {
@@ -216,11 +216,11 @@ Below, we have a controller function for patching a shipment. If the eta of the 
 
 ```
 
-### Bonus Task
+### Coding Task
 
 When containers are being loaded onto a ship, there is likely to be a number of containers with all the same details but different load times. 
 
-For an additional bonus task, we would like you to write a class that accepts an array, creates a number of containers and sets the load times. The array will consist of four parameters:
+For an additional coding task, we would like you to write a class that accepts an array, creates a number of containers and sets the load times. The array will consist of four parameters:
 * number_containers - The number of parameters the user wants to create. Just writing new Container() for each is acceptable.
 * load_date - The load date and time of the first container.
 * interval - The interval of the containers being loaded. The three possible intervals are (hourly, halfHourly, quarterHourly, custom).

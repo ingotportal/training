@@ -6,7 +6,7 @@ You are working at Ingot Portal and you have been tasked with reviewing pull req
 Please review each coding sample and write up a review of the code. Please indicate where small improvements could be made or feel free to rewrite the whole function where necessary.
 
 
-###Sample One
+### Sample One
 
 The purpose of this function is to get the next available delivery date for cargo to the warehouse.
 The function accepts three parameters:
@@ -43,7 +43,7 @@ private function getNextAvailableDeliveryDate($loadDate, $transitTime)
     }
 ```
 
-###Sample Two
+### Sample Two
 
 Below, we have two functions. One is to add packages to containers. The other is to update packages which are attached to containers. Both functions need to update the container weights to the total weights of the packages within the container. What do you think to these classes? Could they be improved in any way?
 
@@ -96,7 +96,7 @@ public function patch (Container $container, Package $package, $params) {
 ```
 
 
-###Sample Three
+### Sample Three
 
 Below, we have three classes. One for vessels, one for planes and one for hauliers. What do you think to these classes? Could they be improved in any way?
 
@@ -126,7 +126,7 @@ class Haulier {
 
 ```
 
-###Sample Four
+### Sample Four
 
 Below, we have a function which accepts a party id and returns a validator class. Each party have different requirements so need different validators.
 
@@ -157,7 +157,7 @@ Below, we have a function which accepts a party id and returns a validator class
     }
 ```
 
-###Sample Five
+### Sample Five
 
 Below, we have a controller function for patching a shipment. If the eta of the shipment is updated, the change will need to be logged and an email sent out to everyone who is subscribed to change of eta notifications. 
 
@@ -216,7 +216,7 @@ Below, we have a controller function for patching a shipment. If the eta of the 
 
 ```
 
-###Bonus Task
+### Bonus Task
 
 When containers are being loaded onto a ship, there is likely to be a number of containers with all the same details but different load times. 
 

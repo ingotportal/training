@@ -8,6 +8,7 @@ To begin, you should create doctrine entities for two database tables:
 
 * Containers
     * container_no (String, 11 characters)
+    * load_date (DateTime)
     * gross_weight (Decimal, 3 decimal places)
     * nett_weight (Decimal, 3 decimal places)
     * cube (Decimal, 3 decimal places)

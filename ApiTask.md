@@ -1,7 +1,7 @@
 Api Task
 ====
 
-You are working at Ingot Portal and you have been tasked with creating a restful api in symfony 4. 
+You are working at Ingot Portal and you have been tasked with creating a restful api in php 7, using symfony 4 framework. 
 
 ### Part One
 To begin, you should create doctrine entities for two database tables:

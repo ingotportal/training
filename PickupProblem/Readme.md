@@ -47,7 +47,7 @@ Only authenticated users can create, update or delete a pickup. No authenticatio
 When the challenge has been completed, please create a zip, ignoring vendor directory (as below) and send to hello@ingotportal.com
 
 ```
-zip -r9 PickupProblem.zip api/* -x "*/\vendor/*"
+zip -r9 PickupProblem.zip PickupProblem/* -x "*/\vendor/*"
 ```
 
 For full transparency, the coding challenge will be scored according to the following:

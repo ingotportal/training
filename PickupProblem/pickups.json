@@ -47,8 +47,12 @@
   ],
   "users": [
     {
-      "name": "IPL Team",
-      "email": "hello@ingotportal.com"
+      "name": "Super Freight Forwarder",
+      "email": "exports@superfreight.com"
+    },
+    {
+      "name": "Harold Beetroot",
+      "email": "harold@iplenterprise.com"
     }
   ]
 }

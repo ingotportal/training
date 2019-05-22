@@ -2,13 +2,13 @@
   "pickups": [
     {
       "customer": {
-          name: "IPL Enterprise"
+          "name": "IPL Enterprise"
       },
       "warehouse": {
-          name: "Bramley Moore"
+          "name": "Bramley Moore"
       },
       "haulier": {
-          name: "PMP Transport"
+          "name": "PMP Transport"
       },
       "datetime": "2019-05-20 13:00",
       "container": {
@@ -18,13 +18,13 @@
     },
     {
       "customer": {
-          name: "IPL Enterprise"
+          "name": "IPL Enterprise"
       },
       "warehouse": {
-          name: "Bramley Moore"
+          "name": "Bramley Moore"
       },
       "haulier": {
-          name: "Lewis and Sons"
+          "name": "Lewis and Sons"
       },
       "datetime": "2019-05-20 13:15",
       "container": {
@@ -34,13 +34,13 @@
     },
         {
       "customer": {
-          name: "IPL Enterprise"
+          "name": "IPL Enterprise"
       },
       "warehouse": {
-          name: "Bramley Moore"
+          "name": "Bramley Moore"
       },
       "haulier": {
-          name: "Freddy Freight"
+          "name": "Freddy Freight"
       },
       "datetime": "2019-05-21 08:00",
     }, 

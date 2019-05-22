@@ -1,0 +1,54 @@
+{
+  "pickups": [
+    {
+      "customer": {
+          name: "IPL Enterprise"
+      },
+      "warehouse": {
+          name: "Bramley Moore"
+      },
+      "haulier": {
+          name: "PMP Transport"
+      },
+      "datetime": "2019-05-20 13:00",
+      "container": {
+          "number": "MSCU1234566",
+          "weight": 1850.00
+      }
+    },
+    {
+      "customer": {
+          name: "IPL Enterprise"
+      },
+      "warehouse": {
+          name: "Bramley Moore"
+      },
+      "haulier": {
+          name: "Lewis and Sons"
+      },
+      "datetime": "2019-05-20 13:15",
+      "container": {
+          "number": "NYKU3086856",
+          "weight": 1300.00
+      }
+    },
+        {
+      "customer": {
+          name: "IPL Enterprise"
+      },
+      "warehouse": {
+          name: "Bramley Moore"
+      },
+      "haulier": {
+          name: "Freddy Freight"
+      },
+      "datetime": "2019-05-21 08:00",
+    }, 
+  ],
+  "users": [
+    {
+      "name": "IPL Team",
+      "email": "hello@ingotportal.com"
+    }
+  ]
+}

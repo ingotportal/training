@@ -30,7 +30,7 @@ Only authenticated users can create, update or delete a pickup. No authenticatio
 ### Data
 
 | name | required |
-|-----------|---------|--------|
+|-----------|---------|
 | Customer | yes |
 | Warehouse | yes |
 | Haulier | yes      |

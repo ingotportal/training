@@ -10,7 +10,7 @@ You are free to use any PHP libraries or modules in order to complete the challe
 
 **The challenge must be completed using [Symfony Framework 4.x](https://symfony.com/download)**
 
-##### Bonus Points
+#### Bonus Points
 
 * Use PHPUnit, Codeception or Behat for your unit tests
 * Use Swagger for API documentation

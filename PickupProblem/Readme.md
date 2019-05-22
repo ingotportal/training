@@ -29,6 +29,10 @@ Only authenticated users can create, update or delete a pickup. No authenticatio
 
 ### Data
 
+* All pickups must have timestamp fields (created_at, modified_at)
+* Container number must be ISO 6364 standard
+* Pickup Date must be ISO 8601 standard
+
 | name | required |
 |-----------|---------|
 | Customer | yes |
@@ -37,12 +41,6 @@ Only authenticated users can create, update or delete a pickup. No authenticatio
 | Pickup Date | yes |
 | Container Number | no |
 | Container Weight | no |
-
-```
-All pickups must have timestamp fields (created_at, modified_at)
-Container number must be ISO 6364 standard
-Load Date must be ISO 8601 standard
-```
 
 ### Finished
 

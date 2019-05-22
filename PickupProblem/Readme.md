@@ -42,7 +42,7 @@ Only authenticated users can create, update or delete a pickup. No authenticatio
 | Container Number | no |
 | Container Weight | no |
 
-Example seed data has been provided in (pickups.json)[pickups.json]
+Example seed data has been provided in [pickups.json](pickups.json)
 
 ### Finished
 

@@ -42,6 +42,8 @@ Only authenticated users can create, update or delete a pickup. No authenticatio
 | Container Number | no |
 | Container Weight | no |
 
+Example seed data has been provided in (pickups.json)[pickups.json]
+
 ### Finished
 
 When the challenge has been completed, please create a zip, ignoring vendor directory (as below) and send to hello@ingotportal.com

@@ -2,10 +2,10 @@
   "pickups": [
     {
       "customer": {
-          "name": "IPL Enterprise"
+          "name": "GOT Enterprises"
       },
       "warehouse": {
-          "name": "Westeros"
+          "name": "Red Keep"
       },
       "haulier": {
           "name": "Targaryen"
@@ -18,10 +18,10 @@
     },
     {
       "customer": {
-          "name": "IPL Enterprise"
+          "name": "GOT Enterprises"
       },
       "warehouse": {
-          "name": "Westeros"
+          "name": "Red Keep"
       },
       "haulier": {
           "name": "Stark"
@@ -34,10 +34,10 @@
     },
         {
       "customer": {
-          "name": "IPL Enterprise"
+          "name": "GOT Enterprises"
       },
       "warehouse": {
-          "name": "Westeros"
+          "name": "Red Keep"
       },
       "haulier": {
           "name": "Lannister"
@@ -47,12 +47,12 @@
   ],
   "users": [
     {
-      "name": "Giants Bane",
-      "email": "exports@wildings.com"
+      "name": "Drogon",
+      "email": "exports@dragonfreight.com"
     },
     {
       "name": "Jon Snow",
-      "email": "jon@iplenterprise.com"
+      "email": "jon@got.com"
     }
   ]
 }

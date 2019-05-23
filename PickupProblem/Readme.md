@@ -32,7 +32,7 @@ Only authenticated users can create, update or delete a pickup. No authenticatio
 * All pickups must have timestamp fields (created_at, modified_at)
 * Container number must be valid [ISO 6346](https://www.containercontainer.com/ISO6346) identifier
 * Container type must be valid [ISO 6346](https://www.containercontainer.com/ISO6346) code
-* Pickup Date must be valid [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) date-time
+* Pickup date must be valid [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) date-time
 
 | attribute | entity | required |
 |-----------|---------|---------|

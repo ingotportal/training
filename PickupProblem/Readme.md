@@ -34,15 +34,15 @@ Only authenticated users can create, update or delete a pickup. No authenticatio
 * Container type must be valid [ISO 6346](https://www.containercontainer.com/ISO6346) code
 * Pickup Date must be valid [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) date-time
 
-| name | required |
-|-----------|---------|
-| Customer | yes |
-| Warehouse | yes |
-| Haulier | yes      |
-| Pickup Date | yes |
-| Container Number | no |
-| Container Type | yes |
-| Container Weight | no |
+| name | entity | required |
+|-----------|---------|---------|
+| Customer | Party | yes |
+| Warehouse | Party | yes |
+| Haulier | Party | yes      |
+| Pickup Date | Pickup | yes |
+| Container Type | Container Type | yes |
+| Container Number | Container | no |
+| Container Weight | Container | no |
 
 Example seed data has been provided in [pickups.json](pickups.json) and ISO container size and type in [iso-container-types.csv](iso-container-types.csv)
 

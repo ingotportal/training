@@ -1,7 +1,12 @@
-## Courses
+## Frontend
 
 * [Simple Shipment](SimpleShipment) 
   Create a simple shipment application using Kendo UI datagrid, bootstrap and RESTful server.
+  
+## Backend
+
+* [Pickup Problem](PickupProblem) 
+  Create a simple warehouse system using REST API and Symfony 4.x (recommended for senior PHP developers)
 
 ## Development
 

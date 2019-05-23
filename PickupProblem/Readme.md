@@ -2,7 +2,7 @@
 
 A customer has asked you to build a simple warehouse system as a REST API to manage containers that are picked up by hauliers from their warehouse for UK Export.
 
-The customer wants to allow nominated freight forwarders access to the REST API to provide haulier, container type and pickup date inadvance while warehouse staff will update the container number and weight after pickup has occurred.
+The customer wants to allow nominated freight forwarders access to the REST API to provide haulier, container type and pickup date in advance while warehouse staff will update the container number and weight after pickup has occurred.
 
 ### Information
 

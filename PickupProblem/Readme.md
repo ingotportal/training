@@ -44,7 +44,7 @@ Only authenticated users can create, update or delete a pickup. No authenticatio
 | Container Type | no |
 | Container Weight | no |
 
-Example seed data has been provided in [pickups.json](pickups.json) and ISO container size and type in (iso-container-types.csv)[iso-container-types.csv]
+Example seed data has been provided in [pickups.json](pickups.json) and ISO container size and type in [iso-container-types.csv](iso-container-types.csv)
 
 ### Finished
 

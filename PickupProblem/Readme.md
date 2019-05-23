@@ -2,7 +2,7 @@
 
 A customer has asked you to build a simple warehouse system as a REST API to manage containers that are picked up by truck from their warehouse for UK Export.
 
-The customers warehouse will know the haulier and pickup date inadvance from freight forwarder and record the container number and weight after departure.
+The customers warehouse will know the haulier, container type and pickup date inadvance from freight forwarder and record the container number and weight after the hauliers departure.
 
 ### Information
 
@@ -41,7 +41,7 @@ Only authenticated users can create, update or delete a pickup. No authenticatio
 | Haulier | yes      |
 | Pickup Date | yes |
 | Container Number | no |
-| Container Type | no |
+| Container Type | yes |
 | Container Weight | no |
 
 Example seed data has been provided in [pickups.json](pickups.json) and ISO container size and type in [iso-container-types.csv](iso-container-types.csv)

@@ -1,8 +1,8 @@
 # Pickup Problem
 
-A customer has asked you to build a simple warehouse system as a REST API to manage containers that are picked up by truck from their warehouse for UK Export.
+A customer has asked you to build a simple warehouse system as a REST API to manage containers that are picked up by hauliers from their warehouse for UK Export.
 
-The customers warehouse will know the haulier, container type and pickup date inadvance from freight forwarder and record the container number and weight after the hauliers departure.
+The customers warehouse will know the haulier, container type and pickup date inadvance from freight forwarder and record the container number and weight after pickup has occurred.
 
 ### Information
 

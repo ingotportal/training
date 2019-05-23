@@ -10,8 +10,12 @@
       "haulier": {
           "name": "Targaryen"
       },
-      "datetime": "2019-05-20 13:00",
+      "datetime": "2019-05-20T13:00:00",
       "container": {
+          "size": {
+            "name": "20 General Purpose",
+            "code": "22GP"
+          },
           "number": "MSCU1234566",
           "weight": 1850.00
       }
@@ -28,6 +32,10 @@
       },
       "datetime": "2019-05-20 13:15",
       "container": {
+          "size": {
+            "name": "40 General Purpose",
+            "code": "40GP"
+          },     
           "number": "NYKU3086856",
           "weight": 1300.00
       }

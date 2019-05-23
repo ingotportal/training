@@ -30,7 +30,7 @@
       "haulier": {
           "name": "Stark"
       },
-      "datetime": "2019-05-20 13:15",
+      "datetime": "2019-05-20T13:15",
       "container": {
           "size": {
             "name": "40 General Purpose",
@@ -50,7 +50,7 @@
       "haulier": {
           "name": "Lannister"
       },
-      "datetime": "2019-05-21 08:00"
+      "datetime": "2019-05-21T08:00"
     }
   ],
   "users": [

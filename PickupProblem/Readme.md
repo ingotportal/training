@@ -30,7 +30,8 @@ Only authenticated users can create, update or delete a pickup. No authenticatio
 ### Data
 
 * All pickups must have timestamp fields (created_at, modified_at)
-* Container number must be ISO 6364 standard
+* Container number must be valid identification number under [ISO 6346 standard](https://www.containercontainer.com/ISO6346)
+* Container type must be a valid ISO Container Type under [ISO 6346 standard](https://www.containercontainer.com/ISO6346)
 * Pickup Date must be ISO 8601 standard
 
 | name | required |
@@ -40,9 +41,10 @@ Only authenticated users can create, update or delete a pickup. No authenticatio
 | Haulier | yes      |
 | Pickup Date | yes |
 | Container Number | no |
+| Container Type | no |
 | Container Weight | no |
 
-Example seed data has been provided in [pickups.json](pickups.json)
+Example seed data has been provided in [pickups.json](pickups.json) and ISO container size and type in (iso-container-types.csv)[iso-container-types.csv]
 
 ### Finished
 

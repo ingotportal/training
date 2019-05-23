@@ -25,7 +25,7 @@ You are free to use any PHP libraries or modules in order to complete the challe
 
 ### Authentication
 
-Only authenticated users can create, update or delete a pickup. No authentication is required to retrieve or list.
+Only authenticated users can create, update or delete a pickup. No authentication is required to retrieve or list pickups.
 
 ### Data
 
